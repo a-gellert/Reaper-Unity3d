@@ -36,7 +36,12 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\Player\Harvester.cs" />
+     <Compile Include="Assets\Scripts\Player\Backpack.cs" />
+     <Compile Include="Assets\Scripts\Field\Field.cs" />
+     <Compile Include="Assets\Scripts\Field\Grass.cs" />
+     <Compile Include="Assets\Scripts\Field\GrassStack.cs" />
      <Compile Include="Assets\Scripts\Joystick\Editor\FloatingJoystickEditor.cs" />
      <Compile Include="Assets\Scripts\Joystick\Editor\JoystickEditor.cs" />
      <Compile Include="Assets\Scripts\Joystick\Joysticks\FloatingJoystick.cs" />
