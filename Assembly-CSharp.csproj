@@ -42,6 +42,10 @@
      <Compile Include="Assets\Scripts\Field\Field.cs" />
      <Compile Include="Assets\Scripts\Field\Grass.cs" />
      <Compile Include="Assets\Scripts\Field\GrassStack.cs" />
+     <Compile Include="Assets\Scripts\Ambar\Point.cs" />
+     <Compile Include="Assets\Scripts\Ambar\Trader.cs" />
+     <Compile Include="Assets\Scripts\Coin\Coin.cs" />
+     <Compile Include="Assets\Scripts\UI Manager\UIManager.cs" />
      <Compile Include="Assets\Scripts\Joystick\Editor\FloatingJoystickEditor.cs" />
      <Compile Include="Assets\Scripts\Joystick\Editor\JoystickEditor.cs" />
      <Compile Include="Assets\Scripts\Joystick\Joysticks\FloatingJoystick.cs" />

@@ -20,11 +20,10 @@ public class Harvester : MonoBehaviour
         if (other.gameObject.tag == "Grass")
         {
             other.gameObject.GetComponentInParent<Grass>().CutGrass();
-            Debug.Log(other.gameObject.tag);
         }
         if (other.gameObject.tag == "Ambar")
         {
-            _backpack.ReleaseBackpack(other.gameObject.transform);
+            _backpack.ReleaseBackpack(other.gameObject.GetComponent<Point>().GetTraderPosition());
         }
     }
     private void OnCollisionEnter(Collision other)
